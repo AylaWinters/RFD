@@ -1,0 +1,26 @@
+{
+  "name": "rfd",
+  "version": "1.0.0",
+  "description": "Reality Focused Dynamics",
+  "main": "server.js",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreTheTallGuy/RFD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreTheTallGuy/RFD/issues"
+  },
+  "homepage": "https://github.com/AndreTheTallGuy/RFD#readme"
+}
