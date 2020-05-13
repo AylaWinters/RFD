@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reality Focused Dynamics</title>
+    <title>Speeches</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -26,10 +26,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    />
+    <script src="https://yvoschaap.com/ytpage/ytembed.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -56,49 +53,21 @@
         </div>
       </div>
     </nav>
-    <div class="hero"></div>
-    <div class="hero-text">
-      Creating Solutions
-      <div class="hero-subtext">One Reality at a Time</div>
+    <div class="speeches-header m-5 center">
+      <h1>Speeches</h1>
     </div>
+    <div class="container" id="ytThumbs"></div>
   </body>
+  <script>
+    ytEmbed.init({
+      block: "ytThumbs",
+      key: "AIzaSyBZOg2G9tv1dN0Zm8cJtSobffs_CIo4DBo",
+      q: "UCVOQtL1kUEAWNgJr3llLlJg",
+      type: "channel",
+      results: 20,
+      meta: true,
+      player: "embed",
+      layout: "full",
+    });
+  </script>
 </html>
-
-<div class="container highlights">
-  <div class="row">
-    <div class="col-sm center">
-      <i class="fab fa-youtube-square icons"></i>
-      <h3 class="youtube">Speeches</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-        architecto maiores tempore inventore. Maxime consequatur quaerat
-        facilis, facere repellat voluptas voluptatibus recusandae quia provident
-        beatae excepturi totam temporibus quam esse.
-      </p>
-    </div>
-    <div class="col-sm center">
-      <i class="far fa-comments icons"></i>
-      <h3 class="something">Something</h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-        temporibus repellat maiores a optio pariatur eveniet corporis, quisquam
-        voluptates aut ea alias! Explicabo nemo a, suscipit deserunt dolores
-        laudantium necessitatibus?
-      </p>
-    </div>
-    <div class="col-sm center">
-      <i class="far fa-address-card icons"></i>
-      <h3 class="contact">Contact</h3>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Exercitationem, corporis quibusdam! Voluptatibus, magni. Doloremque modi
-        tenetur necessitatibus tempore facilis odio, similique, ducimus aperiam
-        iste nesciunt itaque recusandae.
-      </p>
-    </div>
-  </div>
-</div>
-
-<footer class="footer bg-light">
-  <i class="far fa-copyright"></i> 2019 Mark Entrekin
-</footer>

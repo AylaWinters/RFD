@@ -58,7 +58,17 @@ body {
   border: black 1px;
   height: 30px;
   width: 100%;
-  background: rgb(233, 233, 233);
+}
+
+.ytlist {
+  list-style-type: none;
+  margin: 20px;
+}
+li {
+  margin: 20px;
+}
+td span {
+  overflow: hidden;
 }
 
 @media (max-width: 700px) {
