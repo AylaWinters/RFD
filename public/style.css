@@ -67,9 +67,13 @@ body {
 li {
   margin: 20px;
 }
-td {
-  max-height: 180px;
+span {
+  max-height: 80px;
   text-overflow: ellipsis;
+}
+
+.ytPlayer {
+  text-align: center;
 }
 
 td img {
