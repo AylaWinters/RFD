@@ -11,6 +11,14 @@ body {
   background-color: #fff;
   color: #333;
 }
+a {
+  color: black;
+}
+
+a:hover {
+  color: maroon;
+  text-decoration: none;
+}
 .navbar {
   position: sticky;
   top: 0;
