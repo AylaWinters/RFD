@@ -14,6 +14,7 @@ body {
 .navbar {
   position: sticky;
   top: 0;
+  z-index: 20;
 }
 .right {
   position: absolute;
@@ -25,12 +26,12 @@ body {
 
 .hero {
   background: url(./assets/MarkEntrekinSpeaking.jpg);
+  height: 400px;
+  top: 100px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
-  top: 100px;
 }
 
 .hero-text {
@@ -53,9 +54,72 @@ body {
   color: maroon;
   padding-top: 40px;
 }
+.speeches {
+  float: left;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 75px;
+}
+
+.diagonal-one {
+  margin-top: 300px;
+  height: 300px;
+  transform: skewY(-11deg);
+  z-index: 2;
+  /* background: url(https://picsum.photos/500); */
+  background: url(./assets/MarkEntrekinSpeaking.jpg);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog {
+  float: right;
+  width: 400px;
+  margin: 40px 200px 50px 0;
+}
+
+/* .picsum {
+  float: right;
+  margin-top: -200;
+  height: 500px;
+  width: 500px;
+  border-top: 300px solid white;
+  border-right: 1000px solid transparent;
+  transform: skewY(20deg);
+  background: url(https://picsum.photos/500);
+  z-index: -1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.diagonal-two {
+  margin-top: 350px;
+  height: 300px;
+  transform: skewY(11deg);
+  z-index: 2;
+  /* background: url(https://picsum.photos/500); */
+  background: url(./assets/MarkEntrekinSpeaking.jpg);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  float: left;
+  width: 400px;
+  margin: 30px 0 50px 100px;
+}
+
 .footer {
+  position: fixed;
+  bottom: 0px;
   text-align: center;
-  border: black 1px;
   height: 30px;
   width: 100%;
 }
@@ -94,9 +158,27 @@ td img {
 @media (max-width: 700px) {
   .hero {
     background: url(./assets/SpeakingSmall.jpg);
+    background-attachment: fixed;
   }
   .hero-text {
     left: 25%;
+  }
+  .speeches {
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 300px;
+  }
+  .diagonal-one {
+    margin-top: 350px;
+  }
+  .blog {
+    width: 300px;
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+  .contact {
+    margin-left: 40px;
+    width: 300px;
   }
   td h3,
   td:nth-last-child(even) {
